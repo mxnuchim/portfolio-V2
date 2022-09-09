@@ -124,6 +124,10 @@
       height: 15px;
       color: var(--gray-color);
     }
+    
+    app_social_single:hover {
+      cursor: pointer;
+    }
 
     &:hover {
       background-color: var(--secondary-color);
