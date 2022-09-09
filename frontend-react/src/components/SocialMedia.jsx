@@ -19,7 +19,7 @@ const SocialMedia = () => (
         <BsLinkedin />
       </div>
     <a/>
-  </div>
+//   </div>
 );
 
 export default SocialMedia;
