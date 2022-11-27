@@ -1,9 +1,9 @@
-import React, { useState } from 'react';
-import { HiMenuAlt4, HiX } from 'react-icons/hi';
-import { motion } from 'framer-motion';
+import React, { useState } from "react";
+import { HiMenuAlt4, HiX } from "react-icons/hi";
+import { motion } from "framer-motion";
 
-import { images } from '../../constants';
-import './Navbar.scss';
+import { images } from "../../constants";
+import "./Navbar.scss";
 
 const Navbar = () => {
   const [toggle, setToggle] = useState(false);
@@ -11,11 +11,13 @@ const Navbar = () => {
   return (
     <nav className="app__navbar">
       <div className="app__navbar-logo">
-        <div className=""><h1>manuchim</h1></div>
+        <div className="">
+          <h1>manuchim</h1>
+        </div>
         {/* <img src={images.logo} alt="logo" /> */}
       </div>
       <ul className="app__navbar-links">
-        {['home', 'about', 'work', 'skills', 'contact'].map((item) => (
+        {["home", "about", "work", "skills", "contact"].map((item) => (
           <li className="app__flex p-text" key={`link-${item}`}>
             <div />
             <a href={`#${item}`}>{item}</a>
@@ -29,11 +31,11 @@ const Navbar = () => {
         {toggle && (
           <motion.div
             whileInView={{ x: [300, 0] }}
-            transition={{ duration: 0.85, ease: 'easeOut' }}
+            transition={{ duration: 0.85, ease: "easeOut" }}
           >
             <HiX onClick={() => setToggle(false)} />
             <ul>
-              {['home', 'about', 'work', 'skills', 'contact'].map((item) => (
+              {["home", "about", "work", "skills", "contact"].map((item) => (
                 <li key={item}>
                   <a href={`#${item}`} onClick={() => setToggle(false)}>
                     {item}
