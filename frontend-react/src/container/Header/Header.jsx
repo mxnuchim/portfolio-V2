@@ -41,7 +41,7 @@ const Header = () => {
             href="https://drive.google.com/file/d/1ZM55NrMW03BuA5ARx4UXgMJDqySow2Pq/view?usp=sharing"
           >
             <button type="button" className="p-text1">
-              Resume
+              Résumé/CV
             </button>
           </a>
         </div>
