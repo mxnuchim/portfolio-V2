@@ -27,8 +27,8 @@ const About = () => {
         className="head-text"
         style={{ marginTop: 30, fontSize: 16, lineHeight: 2 }}
       >
-        I'm a full stack developer based in <span>Lagos, Nigeria</span>. I have
-        3+ years of experience specializing in <span>JavaScript</span> and{" "}
+        I'm a full stack developer based in <span>Lagos, Nigeria</span> with 3+
+        years of experience specializing in <span>JavaScript</span> and{" "}
         <span>TypeScript</span> and my core strengths are Frontend development{" "}
         <span>(React/React Native)</span>, Backend Development{" "}
         <span>(Node.js)</span>, cloud coputing services <span>(AWS)</span> and
