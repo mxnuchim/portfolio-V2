@@ -31,8 +31,8 @@ const About = () => {
         years of experience specializing in <span>JavaScript</span> and{" "}
         <span>TypeScript</span>. my core strengths are Frontend development{" "}
         <span>(React/React Native)</span>, Backend Development{" "}
-        <span>(Node.js)</span>, cloud coputing services <span>(AWS)</span> and
-        I'm also learning IOS development <span>(SwiftUI)</span> <br />
+        <span>(Node.js)</span>, cloud computing services <span>(AWS)</span> and
+        I'm also learning IOS development with <span>(SwiftUI)</span> <br />
         I'm quietly confident, naturally curious, and constantly working on
         improving my skills, one solved problem at a time.
       </h2>
