@@ -7,6 +7,22 @@
       flex-direction: column;
     }
   }
+
+  .app__footer-link {
+    min-width: 290px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+
+    margin: 1rem 0;
+    padding: 1.5rem;
+    border-radius: 10px;
+    cursor: pointer;
+    background-color: #8a8ca497;
+
+    transition: all 0.3s ease-in-out;
+  }
   
   .app__footer-cards {
     width: 60%;
@@ -27,7 +43,7 @@
       padding: 1rem;
       border-radius: 10px;
       cursor: pointer;
-      background-color: #fef4f5;
+      background-color: var(--secondary-color);
   
       transition: all 0.3s ease-in-out;
   
@@ -43,6 +59,7 @@
       a {
         text-decoration: none;
         font-weight: 500;
+        color: whitesmoke;
       }
       &:hover {
         box-shadow: 0 0 25px #fef4f5;
