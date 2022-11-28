@@ -1,7 +1,7 @@
 import React from "react";
 import { motion } from "framer-motion";
 import { images } from "../../constants";
-import { AppWrap, MotionWrap } from "../../wrapper";
+import { AppWrap } from "../../wrapper";
 import "./Header.scss";
 
 const scaleVariants = {
@@ -38,6 +38,7 @@ const Header = () => {
           </div>
           <a
             target="_blank"
+            rel="noreferrer"
             href="https://drive.google.com/file/d/1ZM55NrMW03BuA5ARx4UXgMJDqySow2Pq/view?usp=sharing"
           >
             <button type="button" className="p-text1">
