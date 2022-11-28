@@ -33,11 +33,8 @@ const About = () => {
         <span>(React/React Native)</span>, Backend Development{" "}
         <span>(Node.js)</span>, cloud coputing services <span>(AWS)</span> and
         IOS development <span>(SwiftUI)</span> <br />
-        I've done remote work for agencies, consulted for startups, and
-        collaborated with very talented people to create digital products for
-        both business and consumer use. I'm quietly confident, naturally
-        curious, and constantly working on improving my skills, one problem at a
-        time.
+        I'm quietly confident, naturally curious, and constantly working on
+        improving my skills, one problem at a time.
       </h2>
 
       <div className="app__profiles">
