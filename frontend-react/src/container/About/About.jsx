@@ -28,12 +28,11 @@ const About = () => {
         style={{ marginTop: 30, fontSize: 16, lineHeight: 2 }}
       >
         I'm a full stack developer based in <span>Lagos, Nigeria</span> with 3+
-        years of experience building scalable solutions using{" "}
-        <span>JavaScript</span> and <span>TypeScript</span>. my core strengths
-        are Frontend development <span>(React/React Native)</span>, Backend
-        Development <span>(Node.js)</span>, cloud computing services{" "}
-        <span>(AWS)</span> and I'm also learning IOS development with{" "}
-        <span>Swift</span> <br />
+        years of experience building scalable solutions using a host of tools
+        and technologies. My core strengths are Frontend development{" "}
+        <span>(React/React Native)</span>, Backend Development{" "}
+        <span>(Node.js)</span>, cloud computing services <span>(AWS)</span> and
+        I'm also learning IOS development with <span>Swift.</span> <br />
         I'm quietly confident, naturally curious, and constantly working on
         improving my skills, one solved problem at a time.
       </h2>
