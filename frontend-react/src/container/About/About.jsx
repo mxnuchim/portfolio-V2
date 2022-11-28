@@ -19,8 +19,25 @@ const About = () => {
   return (
     <>
       <h2 className="head-text">
-        "First, solve the <span>problem. </span> Then write the{" "}
-        <span>code." </span> <br /> John Johnson
+        "Solving the <span>problem. </span> Then writing the{" "}
+        <span>code." </span>
+      </h2>
+
+      <h2
+        className="head-text"
+        style={{ marginTop: 30, fontSize: 16, lineHeight: 2 }}
+      >
+        I'm a full stack developer based in <span>Lagos, Nigeria</span>. I have
+        3+ years of experience specializing in <span>JavaScript</span> and{" "}
+        <span>TypeScript</span> and my core strengths are Frontend development{" "}
+        <span>(React/React Native)</span>, Backend Development{" "}
+        <span>(Node.js)</span>, cloud coputing services <span>(AWS)</span> and
+        IOS development <span>(SwiftUI)</span> <br />
+        I've done remote work for agencies, consulted for startups, and
+        collaborated with very talented people to create digital products for
+        both business and consumer use. I'm quietly confident, naturally
+        curious, and constantly working on improving my skills, one problem at a
+        time.
       </h2>
 
       <div className="app__profiles">
