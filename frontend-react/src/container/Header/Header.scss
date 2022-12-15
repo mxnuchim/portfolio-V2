@@ -173,6 +173,7 @@
     justify-content: flex-end;
     align-items: flex-end;
     position: relative;
+    border-radius: 50%;
   
     img {
       width: 100%;
@@ -187,7 +188,7 @@
       bottom: 0;
       z-index: 0;
       width: 100%;
-      height: 90%;
+      height: 70%;
     }
   
     @media screen and (max-width: 1200px) {
@@ -211,6 +212,6 @@
     cursor: pointer;
 
     &:hover {
-      background-color: #2430af;
+      background-color: #2a303a;
     }
   }
