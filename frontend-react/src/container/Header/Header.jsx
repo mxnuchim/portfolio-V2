@@ -34,7 +34,7 @@ const Header = () => {
 
           <div className="tag-cmp app__flex">
             <p className="p-text">Full Stack Web/Mobile Engineer</p>
-            <p className="p-text">Cloud Engineer</p>
+            <p className="p-text">Cloud DevOps</p>
           </div>
           <a
             target="_blank"
@@ -45,6 +45,15 @@ const Header = () => {
               Résumé/CV
             </button>
           </a>
+          <a
+            target="_blank"
+            rel="noreferrer"
+            href="https://github.com/mxnuchim"
+          >
+            <button type="button" className="p-text1">
+              Github
+            </button>
+          </a>
         </div>
       </motion.div>
 
@@ -53,7 +62,7 @@ const Header = () => {
         transition={{ duration: 0.5, delayChildren: 0.5 }}
         className="app__header-img"
       >
-        <img src={images.profile} alt="profile_bg" />
+        <img src={images.me2} alt="profile_bg" />
         <motion.img
           whileInView={{ scale: [0, 1] }}
           transition={{ duration: 1, ease: "easeInOut" }}
@@ -63,7 +72,7 @@ const Header = () => {
         />
       </motion.div>
 
-      <motion.div
+      {/* <motion.div
         variants={scaleVariants}
         whileInView={scaleVariants.whileInView}
         className="app__header-circles"
@@ -73,7 +82,7 @@ const Header = () => {
             <img src={circle} alt="profile_bg" />
           </div>
         ))}
-      </motion.div>
+      </motion.div> */}
     </div>
   );
 };
