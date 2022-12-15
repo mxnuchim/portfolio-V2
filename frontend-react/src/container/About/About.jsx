@@ -24,17 +24,22 @@ const About = () => {
       </h2>
 
       <h2
-        className="head-text"
-        style={{ marginTop: 30, fontSize: 16, lineHeight: 2 }}
+        className=""
+        style={{
+          marginTop: 30,
+          marginBottom: 30,
+          fontSize: 16,
+          lineHeight: 2.7,
+        }}
       >
-        I'm a full stack developer based in <span>Lagos, Nigeria</span> with 3+
-        years of experience building scalable solutions using a host of tools
-        and technologies. My core strengths are Frontend development{" "}
+        I'm a full stack developer based in Nigeria with 3+ years of experience
+        building scalable solutions with a host of tools and technologies. My
+        core strengths are Frontend development{" "}
         <span>(React/React Native)</span>, Backend Development{" "}
-        <span>(Node.js)</span>, cloud computing services <span>(AWS)</span> and
-        I'm also learning IOS development with <span>Swift.</span> <br />
-        Ok, if you're not here for that, you can find me having fun on Twitter
-        or networking badly on LinkedIn
+        <span>(Node.js)</span> cloud DevOps and IOS development with{" "}
+        <span>Swift.</span> <br />
+        Ok, if you're not here for that, you'll probably find me having fun on
+        Twitter or networking badly on LinkedIn
       </h2>
 
       <div className="app__profiles">
