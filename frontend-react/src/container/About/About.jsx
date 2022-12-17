@@ -36,7 +36,7 @@ const About = () => {
         building scalable solutions with a host of tools and technologies. My
         core strengths are Frontend development{" "}
         <span>(React/React Native)</span>, Backend Development{" "}
-        <span>(Node.js)</span> cloud DevOps and IOS development with{" "}
+        <span>(Node.js),</span> Cloud computing (AWS) and IOS development with{" "}
         <span>Swift.</span> <br />
         Ok, if you're not here for that, you'll probably find me having fun on
         Twitter or networking badly on LinkedIn
