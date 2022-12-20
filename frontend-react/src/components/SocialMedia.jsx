@@ -10,12 +10,8 @@ import {
 const SocialMedia = () => (
   <div className="app__social">
     <div>
-      <a
-        target="_blank"
-        rel="noreferrer"
-        href="mailto:manuchimoliver779@gmail.com"
-      >
-        <BsEnvelopeFill />{" "}
+      <a target="_blank" rel="noreferrer" href="https://github.com/mxnuchim">
+        <BsGithub />{" "}
       </a>
     </div>
     <div>
@@ -28,8 +24,12 @@ const SocialMedia = () => (
       </a>
     </div>
     <div>
-      <a target="_blank" rel="noreferrer" href="https://github.com/mxnuchim">
-        <BsGithub />{" "}
+      <a
+        target="_blank"
+        rel="noreferrer"
+        href="mailto:manuchimoliver779@gmail.com"
+      >
+        <BsEnvelopeFill />{" "}
       </a>
     </div>
     <div>
