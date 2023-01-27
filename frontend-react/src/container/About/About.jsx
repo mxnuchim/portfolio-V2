@@ -38,8 +38,8 @@ const About = () => {
         <span>(React/React Native)</span>, Backend Development{" "}
         <span>(Node.js),</span> Cloud computing (AWS) and IOS development with{" "}
         <span>Swift.</span> <br />
-        Ok, if you're not here for that, you'll probably find me having fun on
-        Twitter or networking badly on LinkedIn
+        Ok, if you're not here for that, you'll probably find me building projects, teaching and having fun on
+        Twitter, or networking badly on LinkedIn
       </h2>
 
       <div className="app__profiles">
