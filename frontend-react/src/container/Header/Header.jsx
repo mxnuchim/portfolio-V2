@@ -28,7 +28,7 @@ const Header = () => {
           <a
             target="_blank"
             rel="noreferrer"
-            href="https://drive.google.com/file/d/1zVJghA5wNqs6EezMalBKHpfoM3yN4P5k/view?usp=sharing"
+            href="https://drive.google.com/file/d/14USxG7M2TM-62XJiBlIGpMImFFSDAvBn/view?usp=sharing"
           >
             <button type="button" className="p-text1">
               Résumé/CV
