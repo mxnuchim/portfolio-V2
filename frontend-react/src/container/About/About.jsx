@@ -32,7 +32,7 @@ const About = () => {
           lineHeight: 2.7,
         }}
       >
-        I'm a full stack developer based in Nigeria with 3+ years of experience
+        I'm a full stack developer based in Nigeria with 4 years of experience
         building scalable solutions with a host of tools and technologies. My
         core strengths are Frontend development{" "}
         <span>(React/React Native)</span>, Backend Development{" "}
