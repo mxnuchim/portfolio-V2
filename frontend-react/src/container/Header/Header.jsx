@@ -1,8 +1,8 @@
-import React from "react";
-import { motion } from "framer-motion";
-import { images } from "../../constants";
-import { AppWrap } from "../../wrapper";
-import "./Header.scss";
+import React from 'react';
+import { motion } from 'framer-motion';
+import { images } from '../../constants';
+import { AppWrap } from '../../wrapper';
+import './Header.scss';
 
 const Header = () => {
   return (
@@ -22,13 +22,13 @@ const Header = () => {
           </div>
 
           <div className="tag-cmp app__flex">
-            <p className="p-text">Full Stack Web/Mobile Engineer</p>
-            <p className="p-text">iOS Engineer</p>
+            <p className="p-text">Senior Full Stack Engineer</p>
+            <p className="p-text">Cloud DevOps Engineer</p>
           </div>
           <a
             target="_blank"
             rel="noreferrer"
-            href="https://drive.google.com/file/d/1yoQvHi9C2Z-MsC7NXiSC24pSEvp54XWk/view?usp=sharing"
+            href="https://drive.google.com/file/d/1u4x8gvjXqTTuR-9ajpnGUdHG_pVvp9Sq/view?usp=sharing"
           >
             <button type="button" className="p-text1">
               Résumé/CV
@@ -45,7 +45,7 @@ const Header = () => {
         <img src={images.me2} alt="profile_bg" />
         <motion.img
           whileInView={{ scale: [0, 1] }}
-          transition={{ duration: 1, ease: "easeInOut" }}
+          transition={{ duration: 1, ease: 'easeInOut' }}
           src={images.circle}
           alt="profile_circle"
           className="overlay_circle"
@@ -55,4 +55,4 @@ const Header = () => {
   );
 };
 
-export default AppWrap(Header, "home");
+export default AppWrap(Header, 'home');
