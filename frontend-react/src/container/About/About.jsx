@@ -1,9 +1,9 @@
-import React, { useState, useEffect } from "react";
-import { motion } from "framer-motion";
+import React, { useState, useEffect } from 'react';
+import { motion } from 'framer-motion';
 
-import { AppWrap, MotionWrap } from "../../wrapper";
-import "./About.scss";
-import { urlFor, client } from "../../client";
+import { AppWrap, MotionWrap } from '../../wrapper';
+import './About.scss';
+import { urlFor, client } from '../../client';
 
 const About = () => {
   const [abouts, setAbouts] = useState([]);
@@ -19,7 +19,7 @@ const About = () => {
   return (
     <>
       <h2 className="head-text">
-        "Solving the <span>problem, </span> Then writing the{" "}
+        "Solving the <span>problem, </span> Then writing the{' '}
         <span>code." </span>
       </h2>
 
@@ -32,14 +32,15 @@ const About = () => {
           lineHeight: 2.7,
         }}
       >
-        I'm a full stack developer based in Nigeria with 4 years of experience
+        I'm a full stack developer based in Nigeria with 5+ years of experience
         building scalable solutions with a host of tools and technologies. My
-        core strengths are Frontend development{" "}
-        <span>(React/React Native)</span>, Backend Development{" "}
-        <span>(Node.js),</span> Cloud computing (AWS) and IOS development with{" "}
+        core strengths are Frontend development{' '}
+        <span>(React, React Native)</span>, Backend Development{' '}
+        <span>(Node.js),</span> Cloud computing (AWS) and IOS development with{' '}
         <span>Swift.</span> <br />
-        Ok, if you're not here for that, you'll probably find me building projects, teaching and having fun on
-        Twitter, or networking badly on LinkedIn
+        Ok, if you're not here for that, you'll probably find me building
+        projects, teaching and having fun on Twitter, or networking badly on
+        LinkedIn
       </h2>
 
       <div className="app__profiles">
@@ -47,7 +48,7 @@ const About = () => {
           <motion.div
             whileInView={{ opacity: 1 }}
             whileHover={{ scale: 1.1 }}
-            transition={{ duration: 0.5, type: "tween" }}
+            transition={{ duration: 0.5, type: 'tween' }}
             className="app__profile-item"
             key={about.title + index}
           >
@@ -66,7 +67,7 @@ const About = () => {
 };
 
 export default AppWrap(
-  MotionWrap(About, "app__about"),
-  "about",
-  "app__whitebg"
+  MotionWrap(About, 'app__about'),
+  'about',
+  'app__whitebg'
 );
