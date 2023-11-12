@@ -23,12 +23,12 @@ const Header = () => {
 
           <div className="tag-cmp app__flex">
             <p className="p-text">Full Stack Engineer</p>
-            <p className="p-text">DevOps Engineer</p>
+            <p className="p-text">Technical Writer</p>
           </div>
           <a
             target="_blank"
             rel="noreferrer"
-            href="https://docs.google.com/document/d/1h3RaeYaHWuYoG3RehB3lkplk_Ae_RW6gay6rby13BTE/edit?usp=sharing"
+            href="https://drive.google.com/file/d/1cQCYBGxtHd5KBxYOqt2w3gS970fkPUcX/view?usp=sharing"
           >
             <button type="button" className="p-text1">
               Résumé/CV
