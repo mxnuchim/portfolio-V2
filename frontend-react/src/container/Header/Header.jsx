@@ -22,8 +22,8 @@ const Header = () => {
           </div>
 
           <div className="tag-cmp app__flex">
-            <p className="p-text">Full Stack Engineer</p>
-            <p className="p-text">Technical Writer</p>
+            <p className="p-text">Senior Software Engineer</p>
+            <p className="p-text">Cloud DevOps Engineer</p>
           </div>
           <a
             target="_blank"
